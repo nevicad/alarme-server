@@ -1,7 +1,7 @@
 import { Server } from "./Server";
 
 let server = new Server()
-const port: any = process.env.PORT || 8080
+const port: any = process.env.PORT || 80
 
 server.app.listen(port, '0.0.0.0', (err: any) => {
   if (err) {

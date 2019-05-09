@@ -22,6 +22,10 @@ export class Server {
       fs.appendFileSync('alarms.txt', `${JSON.stringify(val)}\n`)
       res.status(200).json({response: true})
     })
+
+    router.get('/ping', async (req: express.Request, res: express.Response) => {
+      res.send(true) 
+    })
     
     // Set router location
     this.app.use('/', router)
