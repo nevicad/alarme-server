@@ -1,7 +1,1 @@
-{"title":"","time":"13:36","repetition":"una vez","on":true}
-{"title":"DESPERTARSE","time":"17:36","repetition":"entre semana","on":true}
-{"title":"CACA, POPO, PIS","time":"16:36","repetition":"siempre","on":true}
-{"title":"asdjflkasjdf","time":"18:13","repetition":"siempre","on":true}
-{"title":"asdjflkasjdf","time":"18:13","repetition":"una vez","on":true}
-{"title":"asdjflkasjdf","time":"18:13","repetition":"una vez","on":true}
-{"title":"asdjflkasjdf","time":"18:13","repetition":"una vez","on":true}
+{"alarmas":[{"title":"test1","time":"05:18:15","repetition":"una vez","on":true},{"title":"test2","time":"09:03:05","repetition":"una vez","on":true},{"title":"test3","time":"08:14:15","repetition":"una vez","on":true},{"title":"asdf","time":"04:45","repetition":"una vez","on":true}]}

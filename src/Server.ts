@@ -19,7 +19,10 @@ export class Server {
     router.post('/alarms/', async (req: express.Request, res: express.Response) => {
       const val = req.body
       console.log(val)
-      fs.appendFileSync('alarms.txt', `${JSON.stringify(val)}\n`)
+      let content = fs.readFileSync('alarms.txt', 'utf8')
+      let obj = JSON.parse(content)
+      obj.alarmas.push(val)
+      fs.writeFileSync('alarms.txt', JSON.stringify(obj))
       res.status(200).json({response: true})
     })
 
